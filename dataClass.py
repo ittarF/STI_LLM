@@ -15,6 +15,7 @@ class DataTable:
         self.ner = None
         self.cea = None
         self.t_desc = None
+        self.cta = None
         if file_path.endswith('.csv'):
             self.data = pd.read_csv(file_path)
         elif file_path.endswith('.json'):
