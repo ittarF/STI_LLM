@@ -4,3 +4,4 @@ dataClass copy.py
 llm.ipynb
 dataTable.ipynb
 exploreData.ipynb
+__pycache__
