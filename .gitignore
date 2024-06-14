@@ -1,2 +1,6 @@
 .env
 data
+dataClass copy.py
+llm.ipynb
+dataTable.ipynb
+exploreData.ipynb
