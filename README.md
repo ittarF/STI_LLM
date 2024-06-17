@@ -1,3 +1,3 @@
 Performing Semantic Table Interpretation (STI) with Large Language Models (LLMs)
 
-An example is shown in testing.ipynb
+An example of CEA + NIL is shown in NIL.ipynb
