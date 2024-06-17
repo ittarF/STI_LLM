@@ -1,8 +1,5 @@
 .env
 data
-dataClass copy.py
-llm.ipynb
-dataTable.ipynb
-exploreData.ipynb
 __pycache__
 .DS_Store
+nogit
