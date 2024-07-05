@@ -89,7 +89,7 @@ def generate_CEA_prompt(df, cell_content, ER):
 
 def generate_tableDesc_prompt(df):
 
-    task_description = 'For every column write a short description, in the format: {"0": "description of column 0", "1": "description of column 1", ..., "n": "description of column n"}. Cells of the same column must be of the same type (e.g. all football teams, all actors, etc.).'
+    task_description = 'For every column write a short description, in the format: {"0": "description of column 0", "1": "description of column 1", ..., "n": "description of column n"}.\n The description should be as restrictive and detailed as possible, identifying unique attributes that the items in the column share. If possible, include the geographical region, category, or any other specific characteristic that makes the list items distinct.'
     # Extract column names
     column_names = df.columns.tolist()
     
